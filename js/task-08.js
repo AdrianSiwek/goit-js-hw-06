@@ -11,10 +11,8 @@ function handleSubmit(event) {
     if (email.value === "" || password.value === "") {
         return console.log("Proszę uzupełnić wszystkie pola!");
     } else {
-        else {
             const result = { email: email.value, password: password.value };
             console.log(result);
         }
         event.currentTarget.reset();
     }
-}
